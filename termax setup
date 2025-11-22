@@ -1,0 +1,8 @@
+# ১. পোর্ট স্ক্যানার (TARGET_IP এর জায়গায় টার্গেট IP দিন)
+python port_scanner.py -t TARGET_IP -p 1-1024
+
+# ২. ডিরেক্টরি স্ক্যানার (TARGET_URL এর জায়গায় ওয়েবসাইটের ঠিকানা দিন)
+python directory_scanner.py -u http://TARGET_URL -w wordlists/directories.txt
+
+# ৩. হ্যাশ ক্র্যাকার (HASH_TO_CRACK এর জায়গায় হ্যাশ ভ্যালু দিন)
+python hash_cracker.py -H HASH_TO_CRACK -a md5 -w wordlists/passwords.txt
