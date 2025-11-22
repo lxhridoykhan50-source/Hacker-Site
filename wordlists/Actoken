@@ -1,0 +1,20 @@
+# আপনার প্রোজেক্ট ফোল্ডারে যান
+cd Desktop/ethical-hacking-tools
+
+# Git রিপোজিটরি ইনিশিয়ালাইজ করুন
+git init
+
+# সব ফাইল যোগ করুন
+git add .
+
+# একটি কমিট মেসেজ দিন
+git commit -m "Initial commit of ethical hacking tools"
+
+# GitHub রিপোজিটরির সাথে লিংক করুন (YOUR_USERNAME এর জায়গায় আপনার GitHub ইউজারনেম দিন)
+git remote add origin https://github.com/YOUR_USERNAME/ethical-hacking-tools.git
+
+# মেইন ব্রাঞ্চে সুইচ করুন
+git branch -M main
+
+# কোড GitHub-এ পুশ করুন
+git push -u origin main
