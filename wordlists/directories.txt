@@ -1,0 +1,9 @@
+admin
+login
+test
+backup
+wp-admin
+phpmyadmin
+config
+.env
+robots.txt
